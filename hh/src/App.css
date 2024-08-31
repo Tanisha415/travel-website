@@ -1,0 +1,10 @@
+.main
+{
+  display: flex;
+  justify-content: space-between;
+}
+ul li
+{
+  display:inline;
+  padding-left: 50px;
+}

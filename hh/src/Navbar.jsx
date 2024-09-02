@@ -81,7 +81,7 @@ function Navbar() {
             <div>
               <button onClick={handleLogout} className="ll">
                 Logout {username}
-              </button>
+              </button>/
               <button onClick={deleteUser} className="ll">
                 Delete Account
               </button>
@@ -90,7 +90,7 @@ function Navbar() {
             <>
               <Link className="ll"  to="/signup">
                 Signup
-              </Link>
+              </Link>/
               <Link className="ll"  to="/signin">
                 Signin
               </Link>
